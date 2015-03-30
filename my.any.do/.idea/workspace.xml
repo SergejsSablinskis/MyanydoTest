@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74723acb-44c0-4490-89d6-cb0ad7b2831b" name="Default" comment="" />
+    <ignored path="my.any.do.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/2014_12_03_141219_create_plans_table.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417616863810" ignored="false" />
+    <file path="/2014_12_03_143231_create_folderplans_table.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418208296247" ignored="false" />
+    <file path="/2014_12_03_144759_create_note_table.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418208273100" ignored="false" />
+    <file path="/home.blade.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417874947707" ignored="false" />
+    <file path="/time_plan.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417720949209" ignored="false" />
+    <file path="/HomeController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417721150386" ignored="false" />
+    <file path="/routes.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427704269458" ignored="false" />
+    <file path="/widget.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418054466101" ignored="false" />
+    <file path="/style.css" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427732899408" ignored="false" />
+    <file path="/app.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427732883086" ignored="false" />
+    <file path="/TimeController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417853750030" ignored="false" />
+    <file path="/FolderController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418209841929" ignored="false" />
+    <file path="/Folder.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417803628996" ignored="false" />
+    <file path="/time.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425494154288" ignored="false" />
+    <file path="/home.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427699927106" ignored="false" />
+    <file path="/Time.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417853388094" ignored="false" />
+    <file path="/times.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1417871507530" ignored="false" />
+    <file path="$PROJECT_DIR$/laravel/app/storage/logs/laravel.log" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427713095590" ignored="false" />
+    <file path="/folder.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427711312833" ignored="false" />
+    <file path="/NoteController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418910763694" ignored="false" />
+    <file path="/Note.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418303235207" ignored="false" />
+    <file path="/functions.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427450173706" ignored="false" />
+    <file path="/2014_12_16_201317_create_sub-notes_table.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418761797058" ignored="false" />
+    <file path="/Subnote.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418762005979" ignored="false" />
+    <file path="/Subtask.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418982770359" ignored="false" />
+    <file path="/Task.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1418982783419" ignored="false" />
+    <file path="/TaskController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427705225112" ignored="false" />
+    <file path="/angular-file-upload.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419120215085" ignored="false" />
+    <file path="/2014_12_24_060901_create_attachments_table.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419401442497" ignored="false" />
+    <file path="/Attachment.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419414013750" ignored="false" />
+    <file path="/function.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419523196626" ignored="false" />
+    <file path="$USER_HOME$/Desktop/laravel/app/views/home.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419623383593" ignored="false" />
+    <file path="$USER_HOME$/Desktop/laravel/public_html/js/functions.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419623412282" ignored="false" />
+    <file path="$USER_HOME$/Desktop/laravel/public_html/js/app.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1419624168322" ignored="false" />
+    <file path="/calendarToStart.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427708086794" ignored="false" />
+    <file path="/fullcalendar.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1423574764265" ignored="false" />
+    <file path="/fullcalendar.css" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427710815740" ignored="false" />
+    <file path="/events.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425378638877" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/app/config/database.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425973186388" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/app/models/User.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425974326379" ignored="false" />
+    <file path="/User.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425974271952" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/app/controllers/UserController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425984304582" ignored="false" />
+    <file path="/UserController.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425974278584" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/app/routes.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427063906640" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/app/views/hello.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425973378492" ignored="false" />
+    <file path="/hello.php" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1425973378492" ignored="false" />
+    <file path="$PROJECT_DIR$/../second/public/js/app.js" changelist="74723acb-44c0-4490-89d6-cb0ad7b2831b" time="1427064015113" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="my.any.do" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/public/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="293" column="31" selection-start="7966" selection-end="7966" vertical-scroll-proportion="0.42822385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/public/js/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="1" selection-start="1102" selection-end="1797" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="76" selection-end="2098" vertical-scroll-proportion="-35.96154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Time.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/models/Time.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/templates/time.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="10" selection-start="0" selection-end="906" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaskController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/controllers/TaskController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="126" column="0" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-11.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="folder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/templates/folder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="0" selection-end="1287" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="59" selection-start="71" selection-end="1190" vertical-scroll-proportion="-7.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1014" column="17" selection-start="20380" selection-end="20380" vertical-scroll-proportion="-14.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/laravel/public/js/moment.min.js" />
+        <option value="$PROJECT_DIR$/laravel/public/js/fullcalendar.js" />
+        <option value="$PROJECT_DIR$/laravel/public/js/events.js" />
+        <option value="$PROJECT_DIR$/laravel/public/js/functions.js" />
+        <option value="$PROJECT_DIR$/laravel/public/js/lvluuid.js" />
+        <option value="$PROJECT_DIR$/laravel/public/js/drag-drop.js" />
+        <option value="$PROJECT_DIR$/laravel/app/views/home.php" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/app/models/Task.php" />
+        <option value="$PROJECT_DIR$/laravel/public/js/calendarToStart.js" />
+        <option value="$PROJECT_DIR$/laravel/public/css/fullcalendar.css" />
+        <option value="$PROJECT_DIR$/laravel/app/views/templates/folder.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/templates/time.php" />
+        <option value="$PROJECT_DIR$/laravel/app/controllers/TaskController.php" />
+        <option value="$PROJECT_DIR$/laravel/public/css/style.css" />
+        <option value="$PROJECT_DIR$/laravel/public/js/app.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my.any.do" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/laravel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\my.any.do\laravel\public\js" />
+      <recent name="C:\wamp\www\my.any.do\laravel\public\css" />
+      <recent name="C:\wamp\www\my.any.do\laravel\public\images" />
+      <recent name="C:\wamp\www\my.any.do\laravel\app\controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\my.any.do\laravel\public\images" />
+      <recent name="C:\wamp\www\my.any.do\laravel\public" />
+      <recent name="C:\wamp\www\my.any.do\laravel\app\views" />
+      <recent name="C:\wamp\www\my.any.do\laravel\app\views\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.home.blade.php">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="false" name="home.blade.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/laravel/app/views/home.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.home.blade.php" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74723acb-44c0-4490-89d6-cb0ad7b2831b" name="Default" comment="" />
+      <created>1417615789390</created>
+      <updated>1417615789390</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22803031" sideWeight="0.7936" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Desktop/fullcalendar-2.2.6/demos/basic-views.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/models/Task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="81" selection-start="117" selection-end="117" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="77" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1418663784403" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1418663784403" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/js/calendarToStart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/js/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9071" column="52" selection-start="258117" selection-end="258128" vertical-scroll-proportion="-10.28">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/fullcalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1053" column="19" selection-start="24211" selection-end="24211" vertical-scroll-proportion="-11.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="76" selection-end="2098" vertical-scroll-proportion="-35.96154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/templates/folder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="0" selection-end="1287" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/models/Time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/templates/time.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="0" selection-end="906" vertical-scroll-proportion="-8.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="59" selection-start="71" selection-end="1190" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="1" selection-start="1102" selection-end="1797" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="0" selection-start="3065" selection-end="3065" vertical-scroll-proportion="-11.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1014" column="17" selection-start="20380" selection-end="20380" vertical-scroll-proportion="-14.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="31" selection-start="7966" selection-end="7966" vertical-scroll-proportion="0.42822385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
