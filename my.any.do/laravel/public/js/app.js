@@ -1,4 +1,4 @@
-var app = angular.module('app',['ngRoute', 'angularFileUpload']);
+var app = angular.module('app',['ngRoute', 'angularFileUpload', 'lvl.directives.dragdrop']);
 // Service to get time view
 app.factory('getDate', function($http) {
     return{
@@ -21,8 +21,17 @@ app.factory('tasks',function($http) {
             return $http.delete('index.php/tasks/delete/' +id);
         },
 
-        check: function(id){
+        update: function(data){
+            return $http.post('index.php/tasks/update/'+data.id,data);
+            },
+            check: function(id){
             return $http.post('index.php/tasks/check/' +id);
+        },
+        updateByFolder: function(data){
+            return $http.post('index.php/tasks/updateFolder/'+data.id,data);
+        },
+        updateByTime: function(data){
+            return $http.post('index.php/tasks/updateTime/'+data.id,data);
         },
         saveSubtask : function(data){
             return $http.post('index.php/sub-tasks/post',data);
@@ -107,6 +116,7 @@ app.controller('mainController', function($scope,$http, getDate,tasks,serviceFol
     task_id = null;
     $scope.loading = true;
     $scope.Task ={};
+    $scope.taskUpdate ={};
     $scope.Attachment = {};
     getDate.get().success(function(data) {
         $scope.times = data;
@@ -299,20 +309,52 @@ $scope.flag = 0;
                     });});
         $scope.closePopUp();
     };
+    //function to delete task
     $scope.deleteTask = function(id){
         $scope.loading = true;
             tasks.delete(id).success(function(data){
-           tasks.get().success(function(getData){
-                $scope.tasks = getData;
-            })})};
+                for(i=0;i<$scope.tasks.length;i++)
+                {
+                    if($scope.tasks[i].id == id)
+                    {
+                        $scope.tasks.splice(i,1);
+                        break;
+                    }
+                }
+          })};
 
+    // updates task
+    $scope.updateTask = function (id){
 
+        $scope.taskUpdate.id = id;
+        $scope.taskUpdate.content = document.getElementById("task-"+id).value;
+        tasks.update($scope.taskUpdate).success(function(data){
+            for(i=0;i<$scope.tasks.length;i++)
+            {
+
+                if($scope.tasks[i].id == id)
+                {
+                    $scope.tasks[i].content =  $scope.taskUpdate.content;
+                    break;
+                }
+              }
+
+        })};
+
+    $scope.taskFlag = 0;
     //function to view task
     $scope.openPopUpTask = function(id, content) {
 
         $scope.showPopUpTask = true;
       task_id =  $scope.Task.task_id = id;
         $scope.content = content;
+        if($scope.taskFlag==1)
+        {
+            document.getElementById("task-"+$scope.last_task).value = $scope.content;
+        }
+        $scope.last_task = id;
+
+        $scope.taskFlag=1;
       //  $scope.last_id = {};
         $scope.last_id= 0;
       //  tasks.getLastId();
@@ -454,7 +496,43 @@ $scope.uploader.onCompleteItem = function(item, response, status, headers)
         document.getElementById(item.file.name).style.width = item.progress+'%';
     }
 
+//function to update dropped task folder id
+    $scope.droppedIntoFolder = function(folderId) {
+
+        for(i=0;i<$scope.tasks.length;i++)
+        {
+           if($scope.tasks[i].id == draggedTaskId)
+           {
+               $scope.tasks[i].folder_id = folderId;
+                break;
+           }
+         }
+        $scope.updatedTask = {};
+        $scope.updatedTask.id = draggedTaskId;
+        $scope.updatedTask.folder_id = folderId;
+        tasks.updateByFolder($scope.updatedTask);
+
+    } ;
+
+    $scope.droppedIntoTime = function(timeId) {
+
+        for(i=0;i<$scope.tasks.length;i++)
+        {
+            if($scope.tasks[i].id == draggedTaskId)
+            {
+                $scope.tasks[i].time_id = timeId;
+                break;
+            }
+        }
+        $scope.updatedTask = {};
+        $scope.updatedTask.id = draggedTaskId;
+        $scope.updatedTask.time_id = timeId;
+        tasks.updateByTime($scope.updatedTask);
+
+    } ;
+
 });
+
 
 
 // Routes configuration for controllers
@@ -483,12 +561,14 @@ app.directive('popUpMsg', function(){
 });
 // task properties window
 app.directive('popUpTask', function(){
+
     return {
         restrict: 'E',
         scope: false,
         template: '<div id="popUpTask-bg" ng-show="showPopUpTask"><div id="popUpTask"><div class="content"><div class="lightbox"><div class="task">' +
             '<div class="box">' +
-            '<textarea  class="viewTask">{{content}}</textarea>' +
+            ' <form  ng-submit="updateTask(Task.task_id)" >'+
+            '<input show-focus="showPopUpTask" type="text" id="task-{{Task.task_id}}" class="viewTask" value ="{{content}}"/> </form>' +
             '</div><div class="extras"><div class="tabs"> <header><span  class="tab-header"><span onclick="toSubTasks()" class="tab-label">Sub-tasks</span></span><span  class="tab-header">' +
             '<span onclick="toAttachments()" class="tab-label">Attachments</span></span><span  class="tab-header">' +
             '<span onclick="toShare()" class="tab-label">Share & Assignments</span></span></header><section><div id="extra-task" class="sub-tasks">' +
@@ -545,4 +625,15 @@ app.directive('popUpFolder', function(){
            '</div></div></div></div>'
 
     }
+});
+// auto focus on task update field
+app.directive('showFocus', function($timeout) {
+    return function(scope, element, attrs) {
+        scope.$watch(attrs.showFocus,
+            function (newValue) {
+                $timeout(function() {
+                    newValue && element[0].focus();
+                });
+            },true);
+    };
 });

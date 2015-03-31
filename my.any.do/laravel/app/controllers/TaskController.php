@@ -30,6 +30,23 @@ class TaskController extends BaseController {
         Task::destroy($id);
         return Response::json(array('success'=>true));
     }
+
+    public function updateTask($id)
+    {
+        Task::where('id','=',$id)->update(array('content'=>Input::get('content')));
+        return Response::json(array('success'=>true));
+    }
+
+    public function updateTaskByFolder($id)
+    {
+        Task::where('id','=',$id)->update(array('folder_id'=>Input::get('folder_id')));
+        return Response::json(array('success'=>true));
+    }
+    public function updateTaskByTime($id)
+    {
+        Task::where('id','=',$id)->update(array('time_id'=>Input::get('time_id')));
+        return Response::json(array('success'=>true));
+    }
     public function SaveSubTask()
     {
        Subtask::create(array('task_id' => Input::get('task_id'),

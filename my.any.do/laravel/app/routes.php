@@ -23,7 +23,9 @@ Route::get('last_id', 'TaskController@getLastId');
 Route::delete('attachment-delete/{id}','TaskController@deleteAttachment');
 Route::post('sendEmail', 'TaskController@sendEmail');
 Route::post('tasks/check/{id}','TaskController@checkTask');
-
+Route::post('tasks/update/{id}','TaskController@updateTask');
+Route::post('tasks/updateFolder/{id}','TaskController@updateTaskByFolder');
+Route::post('tasks/updateTime/{id}','TaskController@updateTaskByTime');
 App::missing(function($exception)
 {
     return View::make('home');

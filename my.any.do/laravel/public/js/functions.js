@@ -54,3 +54,9 @@ function toShare()
     document.getElementById('innerAttachment').style.display = 'none';
     document.getElementById('innerShare').style.display = 'flex';
 }
+
+function dragTask(event)
+{
+    draggedTaskId = $(event.currentTarget).attr("data-id");
+
+}

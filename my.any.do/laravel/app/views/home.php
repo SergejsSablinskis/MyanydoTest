@@ -4,16 +4,21 @@
     <title>My.Any.Do</title>
     <link rel="stylesheet" type="text/css" href="../public/css/fullcalendar.css">
     <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+
+
     <script src="../public/js/angular.js"></script>
+    <script src="../public/js/jquery.js"></script>
     <script src="../public/js/angular-file-upload.js"></script>
     <script src="../public/js/angular-route.js"></script>
-    <script src="../public/js/jquery.js"></script>
 
-    <script src="../public/js/app.js"></script>
+    <script src="../public/js/drag-drop.js"></script>
+    <script src="../public/js/lvluuid.js"></script>
     <script src="../public/js/functions.js"></script>
     <script src="../public/js/moment.min.js"></script>
     <script src="../public/js/fullcalendar.js"></script>
     <script src="../public/js/calendarToStart.js" ></script>
+
+    <script src="../public/js/app.js"></script>
 
 </head>
 
